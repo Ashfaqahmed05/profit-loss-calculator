@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    margin: 0%;
+    padding: 30px 0px ;
+    height: 619px;
+    width: 100%;
+    background-color:  rgb(98, 98, 98);
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2{
+    margin: 0px;
+    color: azure;
+    
+}
+.headings{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    /* background-color: aqua; */
+    font-size: 25px;
+}
+.container{
+    width: 90%;
+    margin: 0px 5% ;
+    height: 70%;
+    margin-top: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-image: url(https://img.freepik.com/free-vector/stylish-white-background-with-diagonal-lines_1017-33199.jpg?w=740&t=st=1694103346~exp=1694103946~hmac=abda0a67b540344d414d703c5f84b2c022890cdfba0b3bb29ad0f33d508deb9d);
+    background-size: 100%;
+    border-radius: 10px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(90% - 100px);
+
+}
+#inpt{
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: darkslategrey;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    transition: ease all 0.5s;
+}
+button:hover{
+    padding: 12px;
+    background-color: rgb(98, 98, 98);
+    color: azure;
+}
+#reset{
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100px;
+}
+.values{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.values h2{
+    color: black;
+}

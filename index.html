@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIT-LOSS CALCULATOR</title>
+    
+    <link rel="stylesheet" href="profit-loss.css">
+</head>
+<body>
+    <div class="main">
+        <h2>PROFIT CALCULATOR</h2> 
+        <div class="container">
+            <div class="headings">
+                <h3>Income</h3>
+                <h3>Expense</h3>
+                <h3>Profit</h3>
+                
+            </div>
+            <div class="values">
+                <h2 id="incomeValue">0</h2>
+                <h2 id="expenseValue">0</h2>
+                <h2 id="profitValue">0</h2>
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="amount" id="inpt">
+                <button id="income" onclick="finalamount('income')">Income</button>
+                <button id="expense" onclick="finalamount('expense')">Expense</button>
+                <button id="reset" onclick="finalamount('reset')">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src='profit-loss.js'></script>
+</body>
+</html>
